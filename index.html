@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML_Interview_DAY3</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap"
+      rel="stylesheet" />
+    <style>
+      body {
+        background-image: linear-gradient(white, blue , white);
+        font-family: "Playfair Display", serif;
+        font-size: x-large;
+      }
+    </style>
+  </head>
+  <body>
+    <br />
+    <h1 style="text-align: center">HTML_Interview_DAY1</h1>
+    <h2>1) Write a code to insert an Image ?</h2>
+    <center>
+      <h2>
+        <img src="https://images.unsplash.com/photo-1585937421612-70a008356fbe?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=436&q=80" alt="image"><br> &lt img src="https://images.unsplash.com/photo-1585937421612-70a008356fbe?ixlib=rb-4.0.3& <br> ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto <br>  =format&fit=crop&w=436&q=80" alt="image" &gt 
+      </h2>
+    </center>
+
+    <br />
+    <h2>2) 
+      Create a form contain input fields like name age email and contact</h2>
+    <h2>
+      <center>
+        <form >
+          <label for="name">Name:</label>
+          <input type="text" name="name" id="name" required><br><br>
+          
+          <label for="email">Email:</label>
+          <input type="email" name="email" id="mail" required><br><br>
+          
+          <label for="age">Age: </label>
+          <input type="number" name="age" id="age"><br><br>
+          
+          <label for="contact">Contact:</label>
+          <input type="number" name="contact" id="contact"><br>
+          <input type="submit">
+          </form>
+      </center>
+    </h2>
+
+    <br />
+    <h2>3)Create a table and explain how to achieve colspan
+    </h2>
+    <h2>
+
+        &lt /table border="1" &gt  <br>
+         &lt tr &gt <br>
+         &lt th &gt Name &lt /th &gt <br>
+        <dl>
+          <dt>         &lt th colspan="2"&gt Designation  &lt th &gt 
+
+          </dt>
+          <dd>
+            <p><i>Here we have used attribute called colspan which is used to <br> merge the next two columns <br>including itself as we have given value equals to 2. This is how we have achieved the <br>merging of two columns</i></p>
+          </dd>
+        </dl>
+         &lt /tr &gt <br>
+         &lt tr &gt <br>
+         &lt td &gt Rohan &lt /td &gt <br>
+         &lt td &gt Front-end Dev  &lt /td &gt <br>
+         &lt td &gt Backend Dev  &lt /td &gt <br>
+         &lt /tr &gt <br>
+         &lt tr &gt <br>
+         &lt td &gt Vihan &lt td &gt <br>
+         &lt td &gt Front-end Dev &lt td &gt <br>
+         &lt td &gt Backend Dev  &lt td &gt <br>
+         &lt /tr &gt <br>
+         &lt /table &gt <br>
+
+
+    </h2>
+
+    <br />
+    <h2>4) Create radio button (MERN, MEAN : course)and checkbox(HTML, CSS, React, Node : technology) and explain the difference between these two </h2>
+    <h2>
+      <input type="radio" value="MERN" name="course" id="course">
+      <label for="course">MERN</label><br>
+      <input type="radio" value="MEAN" name="course" id="corse">
+      <label for="course">MEAN</label><br><br>
+      <p><i>Here we have created the radio buttons which are designed as such that <br>the user can select only a single option from the options in MERN & MEAN. To achieve this we have used radio button</i></p>
+      
+      <input type="checkbox" value="HTML" name="technology-1" id="technlogy">
+      <label for="technology">HTML</label><br>
+      <input type="checkbox" value="CSS" name="technology-2" id="tecnology">
+      <label for="technology">CSS</label><br>
+      
+      <input type="checkbox" value="React" name="technology-3" id="technolgy">
+      <label for="technology">React</label><br>
+      
+      <input type="checkbox" value="Node" name="technology-4" id="technoogy">
+      <label for="">Node</label>
+      <p>Apart from the radio button we have only one option to select, here we have used the checkbox attribute to allow us to select muliple option from the given options
+      </p>
+    </h2>
+    <br />
+  </body>
+</html>
